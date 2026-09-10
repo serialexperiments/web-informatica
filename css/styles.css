@@ -1,0 +1,56 @@
+:root {
+  --bs-body-font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    
+    font-family: var(--bs-body-font-family);
+    background-image: url("../img/fondo.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg-mach-primary {
+    background-color: #008aad;
+}
+
+.card-border-primary {
+    border-color: #008aad;
+}
+
+.card-fixed {
+    height: 16rem;
+}
+
+.card-hover {
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease,
+        border-color 0.2s ease;
+}
+
+.card-hover:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    border-color: var(--bs-primary) !important;
+    cursor: pointer;
+}
+
+.card-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.card-link:hover {
+    color: inherit;
+}
+
+.text-mach-primary {
+    color: #008aab;
+}
+
+
+
